@@ -17,11 +17,19 @@ We can always learn from what's been done before and here we can think of:
 2. What's not so good (potential API misuse etc)
 3. Where is this unidiomatic or unergonomic for Rust
 
+# Use case
+
+What are the use cases for this?
+
 # Design
 
-Now start to discuss how a design would look in Rust. Feel free to have
-multiple subsections if there are different approaches possible - it can give
-more to discuss. Also, think about how the API will look from a user
+Optional. Sometimes it's good to just scout around on what prior art and use
+cases for something is. Often we'll need user feedback before we start to think
+of a design.
+
+But if you're here start to discuss how a design would look in Rust. Feel free
+to have multiple subsections if there are different approaches possible - it can
+give more to discuss. Also, think about how the API will look from a user
 perspective both for the common and less-common usecases. 
 
 Additionally, think about expansion. Often other domains may have other needs
