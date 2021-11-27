@@ -52,8 +52,7 @@ without providing information about stride,
 
 The
 [`width()`](https://docs.rs/machine-vision-formats/0.1.1/machine_vision_formats/trait.ImageData.html#tymethod.width)
-and `height()` methods return `u32` but should perhaps return `usize`. (The
-['stride()`](https://docs.rs/machine-vision-formats/0.1.1/machine_vision_formats/trait.Stride.html#tymethod.stride)
+and `height()` methods return `u32` but should perhaps return `usize`. (The [`stride()`](https://docs.rs/machine-vision-formats/0.1.1/machine_vision_formats/trait.Stride.html#tymethod.stride)
 method does return `usize`.)
 
 ## [`ndarray_image::NdImage` v0.3.0](https://docs.rs/ndarray-image/0.3.0/ndarray_image/)
